@@ -21,7 +21,7 @@ with open('dataset/cleaned_dataset.csv', 'a+', newline='', encoding="utf8") as c
     csv_writer = csv.writer(csv_file)
     num = 1
     for item in data:
-        if (len(item["urls"]) == 0) & (item["language"] == "en"):
+        if (item["language"] == "en"):
             print(num)
             num = num + 1   
             for person in user_data:
