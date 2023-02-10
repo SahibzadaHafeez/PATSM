@@ -1,0 +1,88 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:patsm/app_cubit.dart';
+import 'package:patsm/widgets/my_app_bar.dart';
+import 'package:patsm/widgets/my_drawer.dart';
+
+class CannotScorePageMob extends StatelessWidget {
+  const CannotScorePageMob({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return WillPopScope(
+      onWillPop: () async {
+        context.read<AppCubit>().homepage();
+        return false;
+      },
+      child: Scaffold(
+        appBar: MyAppBar(title: 'Cannot do personality assessment'),
+        endDrawer: const MyDrawer(),
+        body: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 20.0),
+          child: ListView(
+            children: [
+              IntrinsicHeight(
+                child: ConstrainedBox(
+                  constraints: BoxConstraints(
+                    minHeight: MediaQuery.of(context).size.height -
+                        (MediaQuery.of(context).padding.top + kToolbarHeight),
+                  ),
+                  child: Column(
+                    children: [
+                      SizedBox(
+                          height: MediaQuery.of(context).size.height * 0.35),
+                      const FittedBox(
+                        child: Text(
+                          'Cannot compute score',
+                          style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 20),
+                      const FittedBox(
+                        child: Text(
+                          'Cannot apply personality assessment on this profile (not enough data)',
+                          style: TextStyle(
+                            fontSize: 16,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                      const FittedBox(
+                        child: Text(
+                          'Would you like to try again for another account',
+                          style: TextStyle(
+                            fontSize: 16,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 40),
+                      const Spacer(),
+                      SizedBox(
+                        height: 40,
+                        width: double.infinity,
+                        child: ElevatedButton(
+                          style: ButtonStyle(
+                              backgroundColor: MaterialStateProperty.all(
+                                  const Color(0xff5A429E))),
+                          onPressed: () {
+                            context.read<AppCubit>().homepage();
+                          },
+                          child: const Text('Try Again'),
+                        ),
+                      ),
+                      const SizedBox(height: 20),
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}

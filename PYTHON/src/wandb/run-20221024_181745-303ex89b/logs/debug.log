@@ -1,0 +1,255 @@
+2022-10-24 18:17:45,074 INFO    MainThread:19064 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Hafeez\.config\wandb\settings
+2022-10-24 18:17:45,074 INFO    MainThread:19064 [wandb_setup.py:_flush():76] Loading settings from c:\Users\Hafeez\OneDrive\Uni\FYP\PATSM\PYTHON\src\wandb\settings
+2022-10-24 18:17:45,074 INFO    MainThread:19064 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-10-24 18:17:45,074 INFO    MainThread:19064 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-24 18:17:45,074 INFO    MainThread:19064 [wandb_init.py:_log_setup():428] Logging user logs to c:\Users\Hafeez\OneDrive\Uni\FYP\PATSM\PYTHON\src\wandb\run-20221024_181745-303ex89b\logs\debug.log
+2022-10-24 18:17:45,074 INFO    MainThread:19064 [wandb_init.py:_log_setup():429] Logging internal logs to c:\Users\Hafeez\OneDrive\Uni\FYP\PATSM\PYTHON\src\wandb\run-20221024_181745-303ex89b\logs\debug-internal.log
+2022-10-24 18:17:45,075 INFO    MainThread:19064 [wandb_init.py:_jupyter_setup():378] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000021C6A43CAF0>
+2022-10-24 18:17:45,075 INFO    MainThread:19064 [wandb_init.py:init():462] calling init triggers
+2022-10-24 18:17:45,075 INFO    MainThread:19064 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {}
+2022-10-24 18:17:45,075 INFO    MainThread:19064 [wandb_init.py:init():515] starting backend
+2022-10-24 18:17:45,075 INFO    MainThread:19064 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2022-10-24 18:17:45,077 INFO    MainThread:19064 [backend.py:ensure_launched():217] starting backend process...
+2022-10-24 18:17:45,146 INFO    MainThread:19064 [backend.py:ensure_launched():222] started backend process with pid: 15872
+2022-10-24 18:17:45,147 INFO    MainThread:19064 [wandb_init.py:init():525] backend started and connected
+2022-10-24 18:17:45,149 INFO    MainThread:19064 [wandb_run.py:_label_probe_notebook():1089] probe notebook
+2022-10-24 18:17:45,150 INFO    MainThread:19064 [wandb_run.py:_label_probe_notebook():1099] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-10-24 18:17:45,150 INFO    MainThread:19064 [wandb_init.py:init():596] updated telemetry
+2022-10-24 18:17:45,212 INFO    MainThread:19064 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2022-10-24 18:17:47,273 INFO    MainThread:19064 [wandb_run.py:_on_init():1924] communicating current version
+2022-10-24 18:17:47,732 INFO    MainThread:19064 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.13.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-10-24 18:17:47,732 INFO    MainThread:19064 [wandb_init.py:init():662] starting run threads in backend
+2022-10-24 18:17:47,963 INFO    MainThread:19064 [wandb_run.py:_console_start():1898] atexit reg
+2022-10-24 18:17:47,964 INFO    MainThread:19064 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.WRAP
+2022-10-24 18:17:47,964 INFO    MainThread:19064 [wandb_run.py:_redirect():1808] Wrapping output streams.
+2022-10-24 18:17:47,965 INFO    MainThread:19064 [wandb_run.py:_redirect():1832] Redirects installed.
+2022-10-24 18:17:47,965 INFO    MainThread:19064 [wandb_init.py:init():688] run started, returning control to user process
+2022-10-24 18:17:47,965 INFO    MainThread:19064 [wandb_init.py:_pause_backend():341] pausing backend
+2022-10-24 18:17:47,966 INFO    MainThread:19064 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-10-24 18:17:51,314 INFO    MainThread:19064 [wandb_init.py:_resume_backend():350] resuming backend
+2022-10-24 18:17:51,316 INFO    MainThread:19064 [wandb_config.py:__setitem__():150] config set vocab_size = 2000 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C22F49400>>
+2022-10-24 18:17:51,316 INFO    MainThread:19064 [wandb_run.py:_config_callback():1136] config_cb vocab_size 2000 None
+2022-10-24 18:17:51,317 INFO    MainThread:19064 [wandb_config.py:__setitem__():150] config set maxlen = 30 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C22F49400>>
+2022-10-24 18:17:51,317 INFO    MainThread:19064 [wandb_run.py:_config_callback():1136] config_cb maxlen 30 None
+2022-10-24 18:17:51,317 INFO    MainThread:19064 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C22F49400>>
+2022-10-24 18:17:51,317 INFO    MainThread:19064 [wandb_run.py:_config_callback():1136] config_cb batch_size 32 None
+2022-10-24 18:17:51,318 INFO    MainThread:19064 [wandb_config.py:__setitem__():150] config set embedding_dims = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C22F49400>>
+2022-10-24 18:17:51,318 INFO    MainThread:19064 [wandb_run.py:_config_callback():1136] config_cb embedding_dims 10 None
+2022-10-24 18:17:51,318 INFO    MainThread:19064 [wandb_config.py:__setitem__():150] config set filters = 16 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C22F49400>>
+2022-10-24 18:17:51,318 INFO    MainThread:19064 [wandb_run.py:_config_callback():1136] config_cb filters 16 None
+2022-10-24 18:17:51,318 INFO    MainThread:19064 [wandb_config.py:__setitem__():150] config set kernel_size = 3 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C22F49400>>
+2022-10-24 18:17:51,318 INFO    MainThread:19064 [wandb_run.py:_config_callback():1136] config_cb kernel_size 3 None
+2022-10-24 18:17:51,318 INFO    MainThread:19064 [wandb_config.py:__setitem__():150] config set hidden_dims = 250 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C22F49400>>
+2022-10-24 18:17:51,319 INFO    MainThread:19064 [wandb_run.py:_config_callback():1136] config_cb hidden_dims 250 None
+2022-10-24 18:17:51,319 INFO    MainThread:19064 [wandb_config.py:__setitem__():150] config set epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C22F49400>>
+2022-10-24 18:17:51,319 INFO    MainThread:19064 [wandb_run.py:_config_callback():1136] config_cb epochs 10 None
+2022-10-24 18:17:52,093 INFO    MainThread:19064 [wandb_init.py:_pause_backend():341] pausing backend
+2022-10-24 18:17:52,093 INFO    MainThread:19064 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-10-24 18:17:53,900 INFO    MainThread:19064 [wandb_init.py:_resume_backend():350] resuming backend
+2022-10-24 18:17:53,901 INFO    MainThread:19064 [wandb_init.py:_pause_backend():341] pausing backend
+2022-10-24 18:17:53,901 INFO    MainThread:19064 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-10-24 18:18:44,264 INFO    MainThread:19064 [wandb_init.py:_resume_backend():350] resuming backend
+2022-10-24 18:18:44,265 INFO    MainThread:19064 [wandb_config.py:__setitem__():150] config set vocab_size = 2000 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C22F49400>>
+2022-10-24 18:18:44,266 INFO    MainThread:19064 [wandb_run.py:_config_callback():1136] config_cb vocab_size 2000 None
+2022-10-24 18:18:44,266 INFO    MainThread:19064 [wandb_config.py:__setitem__():150] config set maxlen = 30 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C22F49400>>
+2022-10-24 18:18:44,266 INFO    MainThread:19064 [wandb_run.py:_config_callback():1136] config_cb maxlen 30 None
+2022-10-24 18:18:44,266 INFO    MainThread:19064 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C22F49400>>
+2022-10-24 18:18:44,267 INFO    MainThread:19064 [wandb_run.py:_config_callback():1136] config_cb batch_size 32 None
+2022-10-24 18:18:44,267 INFO    MainThread:19064 [wandb_config.py:__setitem__():150] config set embedding_dims = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C22F49400>>
+2022-10-24 18:18:44,267 INFO    MainThread:19064 [wandb_run.py:_config_callback():1136] config_cb embedding_dims 10 None
+2022-10-24 18:18:44,268 INFO    MainThread:19064 [wandb_config.py:__setitem__():150] config set filters = 16 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C22F49400>>
+2022-10-24 18:18:44,268 INFO    MainThread:19064 [wandb_run.py:_config_callback():1136] config_cb filters 16 None
+2022-10-24 18:18:44,268 INFO    MainThread:19064 [wandb_config.py:__setitem__():150] config set kernel_size = 3 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C22F49400>>
+2022-10-24 18:18:44,268 INFO    MainThread:19064 [wandb_run.py:_config_callback():1136] config_cb kernel_size 3 None
+2022-10-24 18:18:44,268 INFO    MainThread:19064 [wandb_config.py:__setitem__():150] config set hidden_dims = 250 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C22F49400>>
+2022-10-24 18:18:44,269 INFO    MainThread:19064 [wandb_run.py:_config_callback():1136] config_cb hidden_dims 250 None
+2022-10-24 18:18:44,269 INFO    MainThread:19064 [wandb_config.py:__setitem__():150] config set epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C22F49400>>
+2022-10-24 18:18:44,269 INFO    MainThread:19064 [wandb_run.py:_config_callback():1136] config_cb epochs 10 None
+2022-10-24 18:18:45,026 INFO    MainThread:19064 [wandb_init.py:_pause_backend():341] pausing backend
+2022-10-24 18:18:45,026 INFO    MainThread:19064 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-10-24 18:18:47,684 INFO    MainThread:19064 [wandb_init.py:_resume_backend():350] resuming backend
+2022-10-24 18:18:47,697 INFO    MainThread:19064 [wandb_init.py:_pause_backend():341] pausing backend
+2022-10-24 18:18:47,698 INFO    MainThread:19064 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-10-24 18:18:50,751 INFO    MainThread:19064 [wandb_init.py:_resume_backend():350] resuming backend
+2022-10-24 18:18:53,935 INFO    MainThread:19064 [wandb_init.py:_pause_backend():341] pausing backend
+2022-10-24 18:18:53,935 INFO    MainThread:19064 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-10-24 18:19:06,290 INFO    MainThread:19064 [wandb_init.py:_resume_backend():350] resuming backend
+2022-10-24 18:21:25,092 INFO    MainThread:19064 [wandb_init.py:_pause_backend():341] pausing backend
+2022-10-24 18:21:25,092 INFO    MainThread:19064 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-10-24 18:23:03,100 INFO    MainThread:19064 [wandb_init.py:_resume_backend():350] resuming backend
+2022-10-24 18:23:03,102 INFO    MainThread:19064 [wandb_init.py:_pause_backend():341] pausing backend
+2022-10-24 18:23:03,102 INFO    MainThread:19064 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-10-24 18:23:03,137 INFO    MainThread:19064 [wandb_init.py:_resume_backend():350] resuming backend
+2022-10-24 18:23:03,172 INFO    MainThread:19064 [wandb_init.py:_pause_backend():341] pausing backend
+2022-10-24 18:23:03,172 INFO    MainThread:19064 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-10-24 18:23:03,197 INFO    MainThread:19064 [wandb_init.py:_resume_backend():350] resuming backend
+2022-10-24 18:23:03,210 INFO    MainThread:19064 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Hafeez\.config\wandb\settings
+2022-10-24 18:23:03,210 INFO    MainThread:19064 [wandb_setup.py:_flush():76] Loading settings from c:\Users\Hafeez\OneDrive\Uni\FYP\PATSM\PYTHON\src\wandb\settings
+2022-10-24 18:23:03,210 INFO    MainThread:19064 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-10-24 18:23:03,211 INFO    MainThread:19064 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-24 18:23:03,211 INFO    MainThread:19064 [wandb_init.py:_log_setup():428] Logging user logs to c:\Users\Hafeez\OneDrive\Uni\FYP\PATSM\PYTHON\src\wandb\run-20221024_182303-3def508a\logs\debug.log
+2022-10-24 18:23:03,212 INFO    MainThread:19064 [wandb_init.py:_log_setup():429] Logging internal logs to c:\Users\Hafeez\OneDrive\Uni\FYP\PATSM\PYTHON\src\wandb\run-20221024_182303-3def508a\logs\debug-internal.log
+2022-10-24 18:23:03,212 INFO    MainThread:19064 [wandb_init.py:init():462] calling init triggers
+2022-10-24 18:23:03,212 INFO    MainThread:19064 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {}
+2022-10-24 18:23:03,212 INFO    MainThread:19064 [wandb_init.py:init():481] re-initializing run, found existing run on stack: 303ex89b
+2022-10-24 18:23:03,218 INFO    MainThread:19064 [wandb_run.py:_finish():1685] finishing run patsm/PATSM/303ex89b
+2022-10-24 18:23:03,219 ERROR   MainThread:19064 [jupyter.py:save_history():427] Run pip install nbformat to save notebook history
+2022-10-24 18:23:03,220 INFO    MainThread:19064 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-10-24 18:23:03,220 INFO    MainThread:19064 [wandb_init.py:_jupyter_teardown():360] cleaning up jupyter logic
+2022-10-24 18:23:03,220 INFO    MainThread:19064 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 0
+2022-10-24 18:23:03,221 INFO    MainThread:19064 [wandb_run.py:_restore():1839] restore
+2022-10-24 18:23:03,672 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 771
+  total_bytes: 771
+}
+
+2022-10-24 18:23:04,305 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 771
+  total_bytes: 771
+}
+
+2022-10-24 18:23:04,911 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 771
+  total_bytes: 6745
+}
+
+2022-10-24 18:23:05,024 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 771
+  total_bytes: 6773
+}
+
+2022-10-24 18:23:05,135 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 771
+  total_bytes: 6773
+}
+
+2022-10-24 18:23:05,244 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 771
+  total_bytes: 6773
+}
+
+2022-10-24 18:23:05,354 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 771
+  total_bytes: 6773
+}
+
+2022-10-24 18:23:05,466 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 771
+  total_bytes: 6773
+}
+
+2022-10-24 18:23:05,581 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 771
+  total_bytes: 6773
+}
+
+2022-10-24 18:23:05,687 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 771
+  total_bytes: 6773
+}
+
+2022-10-24 18:23:05,799 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6773
+  total_bytes: 6773
+}
+
+2022-10-24 18:23:05,908 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6773
+  total_bytes: 6773
+}
+
+2022-10-24 18:23:06,018 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6773
+  total_bytes: 6773
+}
+
+2022-10-24 18:23:06,127 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6773
+  total_bytes: 6773
+}
+
+2022-10-24 18:23:06,237 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6773
+  total_bytes: 6773
+}
+
+2022-10-24 18:23:06,347 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6773
+  total_bytes: 6773
+}
+
+2022-10-24 18:23:07,280 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6773
+  total_bytes: 6773
+}
+
+2022-10-24 18:23:08,092 INFO    MainThread:19064 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6773
+  total_bytes: 6773
+}
+local_info {
+}
+
+2022-10-24 18:23:09,291 INFO    MainThread:19064 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2022-10-24 18:23:09,291 INFO    MainThread:19064 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2022-10-24 18:23:09,294 INFO    MainThread:19064 [wandb_run.py:_footer_sync_info():3060] logging synced files

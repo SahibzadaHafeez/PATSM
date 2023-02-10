@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "106442186316",
+    "firebase_url": "https://patsm-76602-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "patsm-76602",
+    "storage_bucket": "patsm-76602.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106442186316:android:af7a3bdf6b492c1c145ee9",
+        "android_client_info": {
+          "package_name": "com.example.patsm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106442186316-n1oq9a040h0r4qesdesusu597n9p62o4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5tG_JitC8K9AAIdYg7UwpmcD5twBKzGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106442186316-n1oq9a040h0r4qesdesusu597n9p62o4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

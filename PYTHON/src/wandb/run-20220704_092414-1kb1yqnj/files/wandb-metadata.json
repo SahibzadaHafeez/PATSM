@@ -1,0 +1,15 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-07-04T04:24:19.511299",
+    "startedAt": "2022-07-04T04:24:14.560474",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "DESKTOP-BFKNGUF",
+    "username": "Hafeez",
+    "executable": "c:\\Users\\Hafeez\\.conda\\envs\\PATSM\\python.exe"
+}

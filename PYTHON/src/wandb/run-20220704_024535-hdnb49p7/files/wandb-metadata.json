@@ -1,0 +1,23 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.0",
+    "heartbeatAt": "2022-07-03T21:45:37.426039",
+    "startedAt": "2022-07-03T21:45:35.131925",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1060 6GB",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/SahibzadaHafeez/PATSM.git",
+        "commit": "5e171abc75d402e1dd3b330237427eadfbb8f794"
+    },
+    "email": "42448306+SahibzadaHafeez@users.noreply.github.com",
+    "root": "C:/Users/Hafeez/OneDrive/Uni/FYP/PATSM",
+    "host": "Shitty-PC",
+    "username": "Hafeez",
+    "executable": "c:\\Program Files\\Python38\\python.exe"
+}

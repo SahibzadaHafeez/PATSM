@@ -1,0 +1,5 @@
+tensorflow
+autokeras
+scikit-learn
+langid
+requests_html

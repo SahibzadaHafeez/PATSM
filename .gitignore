@@ -1,0 +1,35 @@
+PYTHON/dataset/scraped_user_tweets.json
+API/python_scripts/modules/
+FLUTTER/patsm//.flutter-plugins-dependencies
+Flutter/patsm/.flutter-plugins-dependencies
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Optional
+*.log
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+dependencies/
+.pnp/
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.dart_tool/
+build/
+
+# iOS
+ios/Pods/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+
+# Android
+android/build/
+android/app/build/

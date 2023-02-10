@@ -1,0 +1,32 @@
+Model: "model_conv1D"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ Conv1D_1 (Conv1D)           (None, 1969, 64)          2112
+ dropout_1 (Dropout)         (None, 1969, 64)          0
+ Conv1D_2 (Conv1D)           (None, 1954, 64)          65600
+ Conv1D_3 (Conv1D)           (None, 1939, 32)          32800
+ Conv1D_4 (Conv1D)           (None, 1932, 16)          4112
+ Conv1D_5 (Conv1D)           (None, 1929, 8)           520
+ Conv1D_6 (Conv1D)           (None, 1928, 4)           68
+ MaxPooling1D (MaxPooling1D)  (None, 964, 4)           0
+ flatten_1 (Flatten)         (None, 3856)              0
+ Dense_1 (Dense)             (None, 32)                123424
+ Dense_2 (Dense)             (None, 1)                 33
+=================================================================
+Total params: 228,669
+Trainable params: 228,669
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/50
+
+
+
+
+
+307/307 [==============================] - 14s 43ms/step - loss: 643.8707 - mae: 19.7073 - val_loss: 5338.2173 - val_mae: 70.7375
+Epoch 2/50
+
+
+
+155/307 [==============>...............] - ETA: 6s - loss: 474.8436 - mae: 17.2877
